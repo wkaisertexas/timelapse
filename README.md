@@ -1,7 +1,4 @@
-<div style="display: flex; justify-content: space-between; align-items: center;">
-   <h2>TimeLapse - Record your camera or screen</h2>
-   <img src="./icon.ICONSET/icon_128x128.png" width="48" height="48"/>
-</div>
+# TimeLapse - Record your camera or screen
 
 <p align="center">
     <img src="https://img.shields.io/github/last-commit/wkaisertexas/timelapse">
@@ -9,9 +6,11 @@
 
 Uses FFMPEG to take continual screenshots of your screen to make great time lapses. Originally intended for programming / creative projects to show what is required.
 
-<p align="center">
-[![TimeLapse of Me Creating This Project](https://img.youtube.com/vi/hjKidbt-Ad4/0.jpg)](https://www.youtube.com/watch?v=hjKidbt-Ad4)
-</p>
+## Making the project
+
+![TimeLapse of Me Creating This Project](https://img.youtube.com/vi/hjKidbt-Ad4/0.jpg)
+[Click here to Watch](https://www.youtube.com/watch?v=hjKidbt-Ad4)
+
 ## Installation
 
 ### Install the required dependencies
