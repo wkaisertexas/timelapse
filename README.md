@@ -22,12 +22,12 @@ $ python -m pip install -r requirements.txt
 
 ### Install the application
 ```bash 
-$ python setup.py py2app
+$ python setup.py py2app -a
 ```
 
 ### Run the application bundle
 ```sh
-./dist/app
+./dist/Timelapse.app
 ```
 
 ## Tips
