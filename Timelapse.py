@@ -5,10 +5,6 @@ import numpy as np
 
 from os.path import join, expanduser
 
-# NOTE: MSS does not have video inputs, the stupid ai program lied to me
-
-# TODO: figure out a way to display the names of the webcams -> It turns out I just have to suck it up and rewrite the app in swift
-
 CONFIG = {
 	'name': 'TimeLapse',
 	'start': 'Start time lapse',
@@ -18,9 +14,8 @@ CONFIG = {
 	'help': 'Help',
 	'about': 'About',
 	'quit': 'Quit',
-	# takes 25 screenshots per minute (decent for fast-motion)
 	'shots_per_min': 25,
-	'set_shots_per_min': 'Set shots per minute',  # feels a little redundant
+	'set_shots_per_min': 'Set shots per minute',  
 	'frame_rate': 24,  # 24 fps video output
 	'set_frame_rate': 'Set frame rate',
 	'dest': 'Desktop',
