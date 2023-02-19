@@ -18,18 +18,19 @@ OPTIONS = {
         'CFBundleName': "TimeLapse",
         'CFBundleDisplayName': "TimeLapse",
         'CFBundleGetInfoString': "Get shortened timelapse videos",
-        'CFBundleVersion': "0.2.0",
+        'CFBundleVersion': "Version0.2.0",
         'CFBundleShortVersionString': "0.2.0",
         'NSHumanReadableCopyright': "© 2023 William Kaiser. All rights reserved.",
 		'CFBundleShortVersionString': '0.2.0',
 		'LSUIElement': True
 	},
-	'packages': ['cv2', 'rumps', 'mss', 'numpy']
+	'includes': ['cv2'],
+	'packages': ['cv2', 'rumps', 'mss', 'numpy'],
 }
 
 setup(
 	app=APP,
-	name='Timelapse',
+	name='TimeLapse',
 	data_files=DATA_FILES,
 	options={'py2app': OPTIONS},
 	setup_requires=['py2app'],
