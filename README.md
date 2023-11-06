@@ -1,5 +1,9 @@
 # TimeLapse - Record your camera or screen
 
+<h1 align="center">
+    <a href="https://github.com/wkaisertexas/ScreenTimeLapse" target="_blank">Check out the newer version of this repository written as a <strong>Native Application in Swift</strong></a>
+</h1>
+
 <p align="center">
     <img src="https://img.shields.io/github/last-commit/wkaisertexas/timelapse">
 </p>
